@@ -4,19 +4,19 @@
 
 | Service Name                                     | Kind       | Storage | NodePort | NodeSelector |
 | ------------------------------------------------ | ---------- | ------- | -------- | ------------ |
-| Nginx pod ("Autox-frontend", "Agent-builder-frontend") | Deployment | None    | NodePort | None         |
-| Authentication                                   | Deployment | None    | None     | None         |
-| Camel                                            | Deployment | None    | None     | None         |
-| Communication                                    | Deployment | None    | None     | None         |
-| Customevaluator                                  | Deployment | None    | None     | None         |
-| Gateway                                          | Deployment | None    | None     | None         |
-| Resource                                         | Deployment | None    | None     | None         |
-| Statemachine-src                                 | Deployment | None    | None     | None         |
-| Statemahcine-celery                              | Deployment | None    | None     | None         |
-| orchestration-node                               | Deployment | None    | None     | None         |
-| Agent-builder-backend                            | Deployment | pv/pvc  | None     | NodeSelector |
-| Agent-observer-frontend                          | Deployment | None    | None     | None         |
-| Agent-observer-backend                           | Deployment | None    | None     | None         |
+| 1.Nginx pod ("Autox-frontend", "Agent-builder-frontend") | Deployment | None    | NodePort | None         |
+| 2.Authentication                                   | Deployment | None    | None     | None         |
+| 3.Camel                                            | Deployment | None    | None     | None         |
+| 4.Communication                                    | Deployment | None    | None     | None         |
+| 5.Customevaluator                                  | Deployment | None    | None     | None         |
+| 6.Gateway                                          | Deployment | None    | None     | None         |
+| 7.Resource                                         | Deployment | None    | None     | None         |
+| 8.Statemachine-src                                 | Deployment | None    | None     | None         |
+| 9.Statemahcine-celery                              | Deployment | None    | None     | None         |
+| 10.orchestration-node                               | Deployment | None    | None     | None         |
+| 11.Agent-builder-backend                            | Deployment | pv/pvc  | None     | NodeSelector |
+| 12.Agent-observer-frontend                          | Deployment | None    | None     | None         |
+| 13.Agent-observer-backend                           | Deployment | None    | None     | None         |
 
 ---
 
@@ -24,17 +24,16 @@
 
 | Tool Name  | Kind        | Storage | NodePort | NodeSelector |
 | ---------- | ----------- | ------- | -------- | ------------ |
-| Mongodb    | StatefulSet | pv/pvc  | None     | NodeSelector |
-| RabbitMQ   | StatefulSet | pv/pvc  | None     | NodeSelector |
-| Clickhouse | Deployment  | pv/pvc  | None     | NodeSelector |
-| OPA        | Deployment  | pv/pvc  | None     | NodeSelector |
-| Keycloak   | Deployment  | pv/pvc  | None     | NodeSelector |
-| Minio      | Deployment  | pv/pvc  | None     | NodeSelector |
-| MySQL      | Deployment  | pv/pvc  | None     | NodeSelector |
-| Postgres   | Deployment  | pv/pvc  | None     | NodeSelector |
-| Redis      | Deployment  | pv/pvc  | None     | NodeSelector |
+| 14.Mongodb    | StatefulSet | pv/pvc  | None     | NodeSelector |
+| 15.RabbitMQ   | StatefulSet | pv/pvc  | None     | NodeSelector |
+| 16.Clickhouse | Deployment  | pv/pvc  | None     | NodeSelector |
+| 17.OPA        | Deployment  | pv/pvc  | None     | NodeSelector |
+| 18.Keycloak   | Deployment  | pv/pvc  | None     | NodeSelector |
+| 19.Minio      | Deployment  | pv/pvc  | None     | NodeSelector |
+| 20.MySQL      | Deployment  | pv/pvc  | None     | NodeSelector |
+| 21.Postgres   | Deployment  | pv/pvc  | None     | NodeSelector |
+| 22.Redis      | Deployment  | pv/pvc  | None     | NodeSelector |
 
 ---
-
 
 
